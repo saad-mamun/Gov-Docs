@@ -16,7 +16,7 @@ export const Navbar =() => {
             <Logo/>
             <div className='hidden lg:flex justify-center items-center gap-3 xl:gap-4 '>
               {navItems.map(({label,link},i)=>(
-                <a href={link}>
+                <a href={link} key={i}>
                   <p className='text-LiteBlack text-sm xl:text-base hover:text-primary transition-colors duration-150 cursor-pointer'>{label}</p>
                 </a>
               ))}

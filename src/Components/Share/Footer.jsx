@@ -12,15 +12,15 @@ export const Footer=()=> {
           </h1>
           <div className='hidden lg:flex justify-center items-center gap-3 xl:gap-4'>
           {navItems.map(({label,link},i)=>(
-                <a href={link}>
+                <a href={link} key={i}>
                   <p className='text-LiteBlack text-sm xl:text-base hover:text-primary transition-colors duration-150 cursor-pointer'>{label}</p>
                 </a>
               ))}
           </div>
           <div className='flex justify-center items-center gap-3'>
             {
-              socialIcon.map(({url,img})=>
-                <a href={url} target='_blank'>
+              socialIcon.map(({url,img},i)=>
+                <a href={url} key={i} target='_blank'>
                   <img src={img} alt='Social Icon' className='size-[36px]'/>
                 </a>
               )}
