@@ -1,5 +1,5 @@
 import React from "react";
-import { cn } from "../../Lib/Utilites";
+import { cn } from "../../Lib/Utilizes";
 
 export const Container = ({children,className}) => {
     return (

@@ -1,7 +1,7 @@
 // 
 import React from 'react'
 import { twMerge } from 'tailwind-merge'
-import { cn } from '../../Lib/Utilites'
+import { cn } from '../../Lib/Utilizes';
  
 
 export const Button = ({children, className}) => {

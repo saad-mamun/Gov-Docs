@@ -1,5 +1,5 @@
 import React from "react";
-import { cn } from "../../Lib/Utilites";
+import { cn } from "../../Lib/Utilizes";
 import { Gradient } from "../TextGradient";
 export const SectionTitle =({children, className, gradient}) =>{
     return(
