@@ -21,8 +21,6 @@ export const navItems = [
     },
 ];
 
-
-
   export const socialIcon = [
     {
       img:"public/icon/facebook.png",
@@ -68,3 +66,35 @@ export const ProblemSolutions = [
   }
 ];
 
+export const reviews = [
+  {
+    name:"David",
+    image:"public/img/David.png",
+    type:"Happy Client",
+    review:{
+      star:4,
+      title:"It Was A Amazing Experiance!",
+      details:"The AI features saved us countless hours and ensured our compliance was spot on."
+    },
+  },
+  {
+    name:"John Smith",
+    image:"public/img/JHON.png",
+    type:"Happy Client",
+    review:{
+      star:5,
+      title:"It Was A Amazing Experiance!",
+      details:"The AI features saved us countless hours and ensured our compliance was spot on."
+    },
+  },
+  {
+    name:"Ronald Richards",
+    image:"public/img/Ronald.png",
+    type:"Happy Client",
+    review:{
+      star:6,
+      title:"It Was A Amazing Experiance!",
+      details:"The AI features saved us countless hours and ensured our compliance was spot on."
+    },
+  },
+]

@@ -15,7 +15,9 @@ export const ProblemSolution=()=>{
                         // title={problem.title} 
                         // des1={problem.des1} 
                         // des2={problem.des2}
-                        // Nicher niom ewo kora jai 
+
+                        // Nicher niom ewo kora jai ....
+                        
                         key={i} {...problem}/>
                     )
                 )};
