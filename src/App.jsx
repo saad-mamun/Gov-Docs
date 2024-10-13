@@ -3,6 +3,7 @@ import './App.css'
 import { Button } from './Components/Common/Button'
 import { SectionTitle } from './Components/Common/SectionTitle'
 import { Hero } from './Components/Home/Hero'
+import { ProblemSolution } from './Components/Home/ProblemSolution'
 import { Footer } from './Components/Share/Footer'
 import { MobileMenu } from './Components/Share/MobileMenu'
 import { Navbar } from './Components/Share/Navbar'
@@ -15,6 +16,7 @@ function App() {
     <SectionTitle gradient="Solution">Problem & </SectionTitle> */}
     <Navbar/>
     <Hero/>
+    <ProblemSolution/>
     <Footer/>
     </main>
   )
