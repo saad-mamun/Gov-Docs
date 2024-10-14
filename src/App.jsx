@@ -2,6 +2,7 @@
 import './App.css'
 import { Button } from './Components/Common/Button'
 import { SectionTitle } from './Components/Common/SectionTitle'
+import {Note} from './Components/Home/Note'
 import { Hero } from './Components/Home/Hero'
 import Partner from './Components/Home/Partner'
 import { ProblemSolution } from './Components/Home/ProblemSolution'
@@ -9,6 +10,7 @@ import { Reviews } from './Components/Home/Reviews'
 import { Footer } from './Components/Share/Footer'
 import { MobileMenu } from './Components/Share/MobileMenu'
 import { Navbar } from './Components/Share/Navbar'
+
 function App() {
   return (
     <main className='font-nunito-sans bg-[url(img/bannar.svg)] min-h-svh bg-no-repeat bg-top'>
@@ -21,6 +23,8 @@ function App() {
     <ProblemSolution/>
     <Reviews/>
     <Partner/>
+
+    <Note/>
     <Footer/>
     </main>
   )
