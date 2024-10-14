@@ -73,8 +73,8 @@ export const reviews = [
     type:"Happy Client",
     review:{
       star:4,
-      title:"It Was A Amazing Experiance!",
-      details:"The AI features saved us countless hours and ensured our compliance was spot on."
+      title:"Highly Recommend",
+      details:"This service was user-friendly and met all my expectations"
     },
   },
   {
@@ -93,8 +93,35 @@ export const reviews = [
     type:"Happy Client",
     review:{
       star:6,
-      title:"It Was A Amazing Experiance!",
-      details:"The AI features saved us countless hours and ensured our compliance was spot on."
+      title:"Outstanding Support!",
+      details:"The customer support team was quick to resolve my issues"
     },
+  },
+];
+
+export const OurPartners = [
+  {
+    src:"img/partner1.png",
+    alt:"Partner 1",
+  },
+  {
+    src:"img/partner2.png",
+    alt:"Partner 2",
+  },
+  {
+    src:"img/partner3.png",
+    alt:"Partner 3",
+  },
+  {
+    src:"img/partner4.png",
+    alt:"Partner 4",
+  },
+  {
+    src:"img/partner5.png",
+    alt:"Partner 5",
+  },
+  {
+    src:"img/partner6.png",
+    alt:"Partner 6",
   },
 ]

@@ -3,6 +3,7 @@ import './App.css'
 import { Button } from './Components/Common/Button'
 import { SectionTitle } from './Components/Common/SectionTitle'
 import { Hero } from './Components/Home/Hero'
+import Partner from './Components/Home/Partner'
 import { ProblemSolution } from './Components/Home/ProblemSolution'
 import { Reviews } from './Components/Home/Reviews'
 import { Footer } from './Components/Share/Footer'
@@ -19,6 +20,7 @@ function App() {
     <Hero/>
     <ProblemSolution/>
     <Reviews/>
+    <Partner/>
     <Footer/>
     </main>
   )
