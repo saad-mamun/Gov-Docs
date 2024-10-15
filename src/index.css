@@ -12,3 +12,6 @@
     border-image-slice: 1;
 }
 
+.no-scroll{
+    overflow: hidden;
+}

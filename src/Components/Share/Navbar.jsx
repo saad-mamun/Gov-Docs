@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {Logo} from './Logo';
 import { Container } from '../Common/Container';
 import { Button } from '../Common/Button';
@@ -6,9 +6,14 @@ import { navItems } from '../../Lib/db';
 import { MobileMenu } from './MobileMenu';
 export const Navbar =() => {
   const [isMenuOpen, setMenuOpen]=useState(false);
-  const toggleMenu = () =>{
-    setMenuOpen((pre)=> !pre);
-  }
+  const toggleMenu = () =>setMenuOpen((pre)=> !pre);
+ 
+  useEffect(()=>{
+    const bodyClass = document.body.classList;
+    isMenuOpen ?  bodyClass.add("no-scroll") : bodyClass.remove("no-scroll")
+
+    return()=> bodyClass.remove("no-scroll")
+  },[isMenuOpen])
   return (
     <nav className='py-5'>
         <Container>
@@ -36,6 +41,6 @@ export const Navbar =() => {
         </Container>
     </nav>
   );
-};
+}
 
 
